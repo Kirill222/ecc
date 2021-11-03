@@ -1,0 +1,129 @@
+@import "subscss/normalize";
+@import "subscss/fonts.scss";
+@import "subscss/iconfonts";
+@import "subscss/iconfontsnew";
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Rubik", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+// ////////////////////////////////////////////////////////// main css
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.subheader {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0,0,0,.8);
+    margin-bottom: 30px;
+}
+.sub_subheader {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.call-to-action {
+    display: grid;
+    place-items: center;
+    width: 204px;
+    height: 39px;
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 20px;
+
+    background-color: #ff0b37;
+}
+
+.page-body {
+    margin-top: -190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+}
+
+.list-item-top-decor {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(265.04deg,#ff0b37 -14.93%,#ff0b80 100%);
+    border-radius: 15px;
+    margin-bottom: 65px; 
+    
+    & div {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 90px;
+        height: 90px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        box-shadow: 0 10px 10px rgba(255,11,55,.2);
+    }
+}
+
+.ticked-list li::before {
+    content:''; 
+    position: relative;
+    top: 4px;
+    display:inline-block; 
+    height:1em; 
+    width:1em; 
+    background-image:url('../img/svg/tick.svg'); 
+    background-size:contain; 
+    background-repeat:no-repeat; 
+    padding-left: 2em; 
+}
+
+
+
+@import './subscss/_page-header.scss';
+@import './subscss/_page-banner.scss';
+@import './subscss/_page-main.scss';
+@import './subscss/_page-aside.scss';
+
+

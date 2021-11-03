@@ -1,0 +1,96 @@
+.page-main {
+    border-radius: 8px;
+    background-color: #fff;
+    flex-grow: 1;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0 20px rgba(0,0,0,.15);
+    padding: 38px 44px 55px;
+
+    & h1 {
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 45px;
+        color: #ff0b37;
+    }
+    .intro {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 100px;
+    }
+
+    & section {
+        margin-bottom: 68px;
+    }
+
+    .divider {
+        width: 100%;
+        height: 5px;
+        background: rgba(0,0,0,.05);
+        border-radius: 3px;
+        margin-bottom: 40px;
+    }
+    .divider div {
+        min-height: 100%;
+        background: linear-gradient(90deg,#ff0b37 0,#ff0bac 93.78%);
+        border-radius: 3px;
+        width: 25%;
+    }
+
+    & span {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    & span span {
+        font-weight: 500;
+    }    
+
+    // .plan_section ul li::before {
+    //     content:''; 
+    //     position: relative;
+    //     top: 4px;
+    //     display:inline-block; 
+    //     height:1em; 
+    //     width:1em; 
+    //     background-image:url('../img/svg/tick.svg'); 
+    //     background-size:contain; 
+    //     background-repeat:no-repeat; 
+    //     padding-left: 2em; 
+    // }
+
+    .benefits_section>ul {
+        display: flex;
+        gap: 20px;
+
+       & li {           
+           flex-basis: 33%;
+
+           & ul li {
+              position: relative; 
+              
+              ::before{
+                content:''; 
+                position: relative;
+                top: 4px;
+                display:inline-block; 
+                height:1em; 
+                width:1em; 
+                background-image:url('../img/svg/tick.svg'); 
+                background-size:contain; 
+                background-repeat:no-repeat; 
+                padding-left: 2em;               
+
+              }
+           }
+
+           & p {
+               font-weight: 300;
+               font-size: 16px;
+               line-height: 25px;
+               color: rgba(0,0,0,.8);
+           }
+       }
+    }
+    
+}

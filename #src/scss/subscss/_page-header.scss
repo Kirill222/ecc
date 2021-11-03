@@ -1,0 +1,58 @@
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.page-header .logo {
+    display: grid;
+    place-items: center; 
+    
+    & use:hover {
+        fill: #2069f8;
+    }    
+
+}
+
+
+.page-header .nav-menu {
+    display: flex; 
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    & li {
+        font-size: 14px;
+        font-weight: 500; 
+        margin-right: 20px;
+    }
+    :hover {
+        color: #ff0b37;
+    }
+    & li:last-child {
+        margin-right: 0;
+    }
+}
+
+.page-header .lang-options {
+    display: flex;
+
+    & a {
+        display: grid;
+        place-items: center;
+        width: 47px;
+        height: 39px;
+        border-radius: 20px;
+
+        font-size: 14px;
+        
+    }
+    :hover {
+        color: #2069f8;
+        font-weight: 500;
+    }
+    .active {
+        background-color: #eee;
+        font-weight: 500;
+    }
+
+}

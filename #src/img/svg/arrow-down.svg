@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="dropdown__icon" width="10" height="10" fill="currentColor" aria-hidden="true"><defs><symbol id="chevron-down" viewBox="0 0 40 40">
+<path d="M35.2833 8L20 23.1431L4.71672 8L0 12.6733L20 32.4898L40 12.6733L35.2833 8Z"></path>
+</symbol></defs>
+            <use xlink:href="#chevron-down" fill-opacity="0.8" fill="#000000"></use>
+        </svg>
