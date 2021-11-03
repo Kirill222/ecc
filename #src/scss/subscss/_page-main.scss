@@ -66,13 +66,24 @@
        & li {           
            flex-basis: 33%;
 
-           & ul li {
-              position: relative; 
+           & ul li { 
+
+               
+                & p {
+                    position: relative;
+                    left: 25px;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: rgba(0,0,0,.8);
+                    margin-bottom: 10px;
+                }
               
               ::before{
                 content:''; 
-                position: relative;
+                position: absolute;
                 top: 4px;
+                left: -25px;
                 display:inline-block; 
                 height:1em; 
                 width:1em; 
@@ -84,12 +95,7 @@
               }
            }
 
-           & p {
-               font-weight: 300;
-               font-size: 16px;
-               line-height: 25px;
-               color: rgba(0,0,0,.8);
-           }
+           
        }
     }
     
