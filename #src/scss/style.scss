@@ -48,6 +48,18 @@ img {
     margin: 0 auto;
 }
 
+.italic {
+    font-family: "Rubik-Italic";
+    font-weight: 300;
+    font-style: italic;
+}
+
+.italic-bold {
+    font-family: "Rubik-Italic";
+    font-weight: 500;
+    font-style: normal;
+}
+
 .subheader {
     font-weight: 500;
     font-size: 24px;
@@ -117,6 +129,10 @@ img {
     background-size:contain; 
     background-repeat:no-repeat; 
     padding-left: 2em; 
+}
+
+p>span {
+    font-weight: 500;
 }
 
 
