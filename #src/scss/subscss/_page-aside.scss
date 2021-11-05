@@ -54,3 +54,30 @@ aside {
         margin-top: 5px;
     }
 }
+
+
+//media queries
+@media (max-width: 1200px) {
+    aside {
+        position: relative;
+        top: 0px;
+        align-self: stretch;
+        
+        
+        .page-aside {
+            min-width: 100%;
+            margin-bottom: 30px;
+            height: 100%;
+
+            .call-to-action {
+                margin-top: 10px;
+            }
+
+            .grid {
+                margin: 0 auto;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                place-items: center;
+            }
+        }
+    }
+}

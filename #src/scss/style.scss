@@ -96,6 +96,18 @@ img {
     gap: 30px;
     position: relative;
 }
+@media (max-width: 1200px) {
+
+    body{
+        padding: 10px 0;
+    }
+
+    .page-body {
+        flex-direction: column;
+    }
+}
+
+
 
 .list-item-top-decor {
     position: relative;

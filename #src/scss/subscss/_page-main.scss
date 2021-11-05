@@ -57,20 +57,7 @@
 
     & span span {
         font-weight: 500;
-    }    
-
-    // .plan_section ul li::before {
-    //     content:''; 
-    //     position: relative;
-    //     top: 4px;
-    //     display:inline-block; 
-    //     height:1em; 
-    //     width:1em; 
-    //     background-image:url('../img/svg/tick.svg'); 
-    //     background-size:contain; 
-    //     background-repeat:no-repeat; 
-    //     padding-left: 2em; 
-    // }
+    }      
 
     .benefits_section>ul {
         display: flex;
@@ -311,4 +298,11 @@ background: linear-gradient(90deg, rgba(255,11,55,1) 0%, rgba(255,11,113,1) 100%
         
     }
     
+}
+
+//media queries
+@media (max-width: 1200px) {
+    .page-main {
+        margin-bottom: 10px;
+    }
 }

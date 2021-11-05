@@ -3,6 +3,10 @@
     justify-content: space-between;
     margin-top: 5px;
     margin-bottom: 10px;
+
+    .sandwich {
+        display: none;
+    }
 }
 
 .page-header .logo {
@@ -55,4 +59,20 @@
         font-weight: 500;
     }
 
+}
+
+// Media queries
+
+@media (max-width: 1200px) {
+
+    .page-header {
+        align-items: center;
+    }
+
+    .header-middle {
+        display: none;        
+    }
+    .page-header .sandwich {
+        display: inline-block;
+    }
 }
