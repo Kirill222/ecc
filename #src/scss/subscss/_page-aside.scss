@@ -67,7 +67,9 @@ aside {
         .page-aside {
             min-width: 100%;
             margin-bottom: 30px;
+            padding-bottom: 30px;
             height: 100%;
+            min-height: auto;
 
             .call-to-action {
                 margin-top: 10px;
@@ -82,8 +84,10 @@ aside {
     }
 }
 
-// @media (max-width: 620px) {
-//     aside .page-aside {
-//         flex: 1;
-//     }
-// }
+@media (max-width: 600px) {
+    aside .page-aside .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+

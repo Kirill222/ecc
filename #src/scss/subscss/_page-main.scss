@@ -21,7 +21,10 @@
     }
 
     & section {
-        margin-bottom: 68px;
+        margin-bottom: 68px;        
+    }
+    & section:last-child {
+        margin-bottom: 0px;  
     }
 
     .divider {
@@ -125,7 +128,7 @@
             }
             
             
-            & li {
+            .list-of-services li {
                 list-style-type: disc;
 
             }
@@ -233,6 +236,10 @@
     }
 
     .download_section {
+
+        .divider {
+            margin-bottom: 80px;
+        }
 
         .download_block {
             min-width: 100%;
