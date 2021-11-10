@@ -201,8 +201,7 @@
             grid-gap: 20px;
 
             .uni {
-                & img {
-                    height: 175px;
+                & img {                  
                     border-radius: 8px;
                     display: block;
                     margin-bottom: 10px;
@@ -251,7 +250,7 @@
 
                 text-align: center;
                 background: rgb(255,11,55);
-background: linear-gradient(90deg, rgba(255,11,55,1) 0%, rgba(255,11,113,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+                background: linear-gradient(90deg, rgba(255,11,55,1) 0%, rgba(255,11,113,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
                 
                 clip-path: polygon(0 1%, 100% 0, 75% 100%, 0 100%);
 
@@ -304,5 +303,32 @@ background: linear-gradient(90deg, rgba(255,11,55,1) 0%, rgba(255,11,113,1) 100%
 @media (max-width: 1200px) {
     .page-main {
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 960px) {
+    .benefits_section>ul  {
+        flex-direction: column; 
+    }
+    .page-main .universities_section .uni-grid {         
+        grid-template-columns: 1fr 1fr;            
+    }   
+}
+
+@media (max-width: 900px) {
+    .page-main .need_section .stage {        
+        flex-direction: column;        
+    }
+}
+
+@media (max-width: 800px) {
+    .our_sevices {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 620px) {
+    .page-main .universities_section .uni-grid {         
+        grid-template-columns: 1fr;          
     }
 }

@@ -68,3 +68,47 @@
         color: rgba(0,0,0,.5)
     }
 }
+
+
+@media (max-width: 980px) {
+
+    .footer h4 {
+        font-weight: 700;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        padding: 25px;        
+    }
+    .footer .footer-div  .footer-left {
+        justify-content: space-around;
+        padding-bottom: 25px;
+        align-items: flex-start;
+        gap: 16px; 
+    }
+    .footer .footer-div .footer-right {
+        justify-content: space-between; 
+        align-items: flex-start;       
+        padding: 25px;
+        padding-left: 0;
+        gap: 16px;
+        text-align: left;
+    }
+    .copyright {
+        padding: 25px;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-left {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer-right {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
