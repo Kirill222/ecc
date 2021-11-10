@@ -214,24 +214,25 @@
                     font-weight: 500;
                     font-size: 18px;
                     line-height: 22px;
-                    color: #000;
-
-                    ::before{
-                        content:'sadasd'; 
+                    color: #000; 
+                    position: relative;
+                    margin-left: 25px;
+                    &:before {                        
+                        content: ""; 
                         position: absolute;
                         top: 4px;
                         left: -25px;
                         display:inline-block; 
                         height:1em; 
                         width:1em; 
-                        background-image:url('../img/svg/tick.svg'); 
+                        background-image:url('../../img/svg/location.svg'); 
                         background-size:contain; 
                         background-repeat:no-repeat; 
-                        padding-left: 2em;               
-                    }
+                        padding-left: 2em; 
+                    } 
+                    
                 }
-                
-            }
+            }                        
         }
     }
 
@@ -319,7 +320,13 @@
     }
     .page-main .universities_section .uni-grid {         
         grid-template-columns: 1fr 1fr;            
+    } 
+    .page-main .download_section .download_block .download_link h3 {        
+
+            font-size: 20px;
+    
     }   
+    
 }
 
 @media (max-width: 900px) {
